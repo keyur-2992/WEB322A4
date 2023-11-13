@@ -1,0 +1,94 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body tabindex="-1">
+    <%- include('partials/navbar', {page: ''}) %>
+
+    <br />
+
+    <div class="container mx-auto">
+      <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Welcome to Lego's World</h1>
+
+            <p class="py-6">
+              Discover the architect within you as you venture through the vibrant world of Lego, where creativity knows no bounds.
+            </p>
+
+            <a href="/lego/sets" class="btn btn-primary">Get Started Now</a>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://cdn.rebrickable.com/media/sets/003-1.jpg"
+                alt="Lego set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Basic Building Set</h2>
+              <p>
+                This set was released in 1968.
+              </p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/033-2" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://cdn.rebrickable.com/media/sets/03093-1.jpg"
+                alt="Lego Set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">The Race to Build It Board Game</h2>
+              <p>The Race to Build It Board Game was released in 1999</p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/03093-1" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://cdn.rebrickable.com/media/sets/03-1.jpg"
+                alt="Lego Set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Doors and Fences</h2>
+              <p>Doors and Fences- released in 1999</p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/01-Mar" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
